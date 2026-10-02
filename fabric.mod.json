@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "painel_led",
+	"version": "${version}",
+	"name": "Painel LED",
+	"description": "Painel LED quadrado de sobrepor. Emite luz nivel 15 e gruda em qualquer face.",
+	"authors": ["O Guia31"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.guia31.painelled.PainelLedMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

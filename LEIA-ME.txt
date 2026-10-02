@@ -1,0 +1,21 @@
+PAINEL LED - Fabric 1.21.11
+
+COMO GERAR O .JAR (precisa de JDK 21):
+  Windows:  gradlew.bat build
+  Linux/Mac: ./gradlew build
+
+O arquivo fica em build/libs/painel_led-1.0.0.jar  (NAO use o -sources.jar)
+
+COMO USAR:
+  1. Coloque o painel_led-1.0.0.jar e o Fabric API 0.141.6+1.21.11 na pasta mods
+  2. Abra o Minecraft com o perfil Fabric 1.21.11
+  3. Pegue o bloco: /give @s painel_led:painel_led 64
+     (ou aba Blocos Funcionais no criativo)
+
+RECEITA: vidraca x3 / vidraca + po de glowstone + vidraca / barra de ferro x3  ->  2 paineis
+
+SEM INSTALAR NADA (jeito mais facil):
+  1. Crie um repositorio no github.com e envie TODOS os arquivos desta pasta (inclusive a pasta .github)
+  2. Aba Actions -> workflow "build" -> espere ficar verde (~3 min)
+  3. Clique na execucao -> baixe "painel_led-jar" no fim da pagina -> extraia o .jar
+  4. Jogue o .jar na pasta mods
